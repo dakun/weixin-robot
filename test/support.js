@@ -36,7 +36,7 @@ var tpl = [
   '</xml>'
 ].join('\n');
 
-exports.tail = function (token) {
+exports.tail = function (token) {    
   var q = {
     timestamp: new Date().getTime(),
     nonce: parseInt((Math.random() * 100000000000), 10)
